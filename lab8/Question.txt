@@ -1,0 +1,16 @@
+WEEK 8  MDP& DYNAMIC PROGRAMMING
+Use the Frozen Lake environment.
+https://www.gymlibrary.dev/environments/toy_text/frozen_lake/
+Learn  the  optimal  policy  for  the  frozen  lake  environment  using  the  Policy  Iteration  vs  the Value Iteration technique.
+1.Create a Policy Iteration function with the following parameters
+  •policy: 2D array of a size n(S) x n(A), each cell represents a probability of taking action a in state s.
+  •environment: Initialized OpenAI gym environment object
+  •discount_factor: MDP discount factor
+  •theta:  A  threshold  of  a  value  function  change.  Once  the  update  to  value function is below this number
+  •max_iterations: Maximum number of iterations 
+2.Create a Value Iteration function with the following parameters
+  a.environment: Initialized OpenAI gym environment object
+  b.discount_factor: MDP discount factor
+  c.theta:  A  threshold  of  a  value  function  change.  Once  the  update  to  value function is below this number
+  d.max_iterations: Maximum number of iterations 
+3.Compare  the number of  wins, average  return  after  1000 episodes and  comment  on which method performed better.
