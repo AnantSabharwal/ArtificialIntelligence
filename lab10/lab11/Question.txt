@@ -1,0 +1,7 @@
+1.Use   Raspberry   PI   and   the   temperature,   gas   sensor   to   collect   data   from   the environment in real time, record the data into a
+CSV file with date/time stamp. Create an  environment  in  TensorFlow  which  returns  the  temperature,  gases  as  state variables. 
+Use the environment to display the temperature and gases on a dashboard in real time.
+
+2.a.  Pretrain  a  Deep  Learning  based  model  to  perform  object  detection  on  Google colab/jupyter notebook.
+2.b. UseTensorFlow Litewith Python on a Raspberry Pi and deploy the DL model to perform real-time object 
+detection using images streamed from the Pi Camera. 
