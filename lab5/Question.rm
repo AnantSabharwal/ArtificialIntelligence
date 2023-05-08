@@ -1,6 +1,7 @@
 WEEK 5: MULTI ARMED BANDITS IN TF-AGENTS
 1.Do the tutorial for MAB in TF-Agents
-https://www.tensorflow.org/agents/tutorials/bandits_tutorial2.
+https://www.tensorflow.org/agents/tutorials/bandits_tutorial
+2.
 Exercise 1 -Create a  environment  
 a.for  which  the  observation  is  a  random  integer  between -5  and  5,  there  are  3 possible actions (0, 1, 2), and the reward is the product of the action and the observation.
 b.Define an optimal policy manually. The action only depends on the sign of the observation, 0 when is negative and 2 when is positive.
